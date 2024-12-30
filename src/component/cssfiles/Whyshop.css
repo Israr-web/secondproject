@@ -1,0 +1,23 @@
+#shopwith {
+    font-size: 40px;
+    text-align: center;
+}
+#shopwith span{
+    font-size: 25px;
+}
+#spanshop{
+    color: red;
+}
+.card{
+    margin-top: 10px;
+}
+@media(min-width: 375px) and (max-width: 576px) {
+    #shopwith {
+        font-size: 30px;
+        text-align: center;
+    }
+    .card{
+        margin-top: 10px;
+    }
+
+}

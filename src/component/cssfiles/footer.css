@@ -1,0 +1,71 @@
+#footerdiv {
+    background-color: rgb(165, 156, 144);
+    /* margin-bottom: 10px; */
+}
+#footsho{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#footshoes{
+    margin-top: 10px;
+}
+
+#footfollow{
+    margin-top: 10px;
+    text-align: center;
+}
+#shoesicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+
+#footcontact{
+    margin-top: 10px;
+}
+
+@media(min-width: 375px) and (max-width: 576px) {
+    #shoesdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footsho{
+        width: 100px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+        
+    }
+    #shoesicons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    #footshoes{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #footfollow{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #footcontact{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #btnicon{
+        align-items: center;
+    }
+}

@@ -1,0 +1,38 @@
+#our{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+#prod{
+    font-size: 40px;
+}
+#pro{
+    font-size: 30px;
+    color: red;
+}
+#proimg {
+    width: 100%;
+    height: 150px;
+    transition: 1.5s;
+}
+#proimg:hover {
+    padding: 10px;
+}
+
+#procard{
+    margin-top: 10px;
+}
+#htext{
+    text-align: center;
+}
+#ptext{
+    text-align: center;
+}
+#procard {
+    text-align: center;
+    transition: 1s;
+}
+#procard:hover {
+    box-shadow: 5px 5px 3px rgb(53, 53, 53), -3px -3px 3px rgb(53, 53, 53);
+
+}
